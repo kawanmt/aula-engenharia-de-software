@@ -1,0 +1,13 @@
+1. GCS escolhido : GitHub/Git
+
+2. No GitHub/Git, primeiramente é necessário criar um repositório no GitHub, com os membros da equipe participando. Após isso, em uma maquina com Git baixado, basta clonar o repositório, com "git clone", para ter o repositório na maquina do dev, para que assim o mesmo possa realizar as alterações desejadas no artefato escolhido. Feitas as alterações o dev deverá dar um "git add 'NOME_DO_ARQUIVO'" para coloca-lo na staging area, e aguardar pelo próximo "git commit" ou "git push".
+
+3. No GitHub/Git isso depende das permissões de acesso do repositório, caso seja público, qualquer um pode clonar ou baixar o código, o que seria o check-out. Porém caso o acesso seja restrito, apenas indivíduos autorizados poderão fazer isso.
+
+4. Para fazer um check-out em GitHub/Git, basta baixar o repositório, fazer as alterações e e atualizar o repositório com o "git pull"/"git commit". O Git registra nos logs locais e no histórico; a versão atual do arquivo que foi baixada, o branch de onde os arquivos vieram, e as alterações disponíveis em relação ao último estado local.
+
+5. O GitHub/Git não faz o congelamento do documento, mais de uma pessoa pode editar o mesmo arquivo, e caso isso ocorra o Git gera um conflito que tem que ser manualmente resolvido pelo dev antes dar um commit ou um push.
+
+6. No GitHub/Git, o check-in se dá por meio do "git commit", ou "git pull", ou também "git add", e assim o GitHub registra no repositório, quem fez a modificação; a data e hora da modificação; a mensagem escrita com o commit; as alterações feitas nos arquivos ou codigos (também chamada de diff); e por fim um hash unico daquela versão.
+
+7. A auditoria no GitHub/Git é feita pelo histórico de commits, já que se é registrado quem realizou uma modificação, e também o que se alterou. O histórico é possivel de se consultar pela tag "git log", ou na aba de pull requests dentro do GitHub.
